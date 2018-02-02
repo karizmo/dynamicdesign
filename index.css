@@ -34,6 +34,7 @@
 }
 
 #cover {
+    font-size: 20pt;
     width: 100%;
     position: absolute;
     left: 10px;
@@ -42,4 +43,10 @@
     background-color: white;
     z-index: 6;
     border: none;
+}
+
+#start {
+    width: 120px;
+    height: 40px; 
+    background-color: burlywood;
 }

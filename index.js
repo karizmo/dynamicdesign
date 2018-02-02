@@ -2,7 +2,7 @@
 
 var dis = document.getElementById("numdisplay")
 var rightnum = Math.round(Math.random()*100);
-var score = 100;
+var score = 1;
 
 document.getElementById("start").addEventListener("click",
 function(){
@@ -38,7 +38,7 @@ function () {
             document.getElementById("display").style.backgroundColor = "aqua";
             //alert("You guessed: "+numguess+"Which is right!!!");
             console.log("nested first if");
-            score = score - 1;
+            score = score + 1;
             rightnum = Math.round(Math.random()*100);
         }
         
