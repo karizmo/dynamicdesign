@@ -2,7 +2,7 @@
 
 var dis = document.getElementById("numdisplay")
 var rightnum = Math.round(Math.random()*100);
-var score = 1;
+var score = 0;
 
 document.getElementById("start").addEventListener("click",
 function(){
@@ -26,11 +26,11 @@ function () {
     }
     else{
         if(numguess > rightnum){
-            dis.innerText = "Too big"
+            dis.innerText = numguess+" Is too big  Current score:"+score;
             document.getElementById("display").style.backgroundColor = "white";
         }
         else if(numguess < rightnum) {
-            dis.innerText = "too Small";
+            dis.innerText = numguess+" is too small  Current score:"+score;
             document.getElementById("display").style.backgroundColor = "white";
         }
         else if(numguess == rightnum){
