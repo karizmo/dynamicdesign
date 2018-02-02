@@ -1,0 +1,45 @@
+#display {
+    width: 200px;
+    height: 200px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    top:0px;
+    margin: auto;
+    margin-top: 190px;
+    background-color: white;
+    position:fixed
+}
+
+#numdisplay {
+    width:100px;
+    height:50px;
+    text-align: center;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    margin: auto;
+}
+
+#controls {
+    width:30vw;
+    margin:10px auto;
+    text-align: center;
+}
+#sbut {
+    text-align: center;
+    
+}
+
+#cover {
+    width: 400px;
+    position: absolute;
+    left: 220px;
+    padding-top: 90px;
+    text-align: center;
+    background-color: white;
+    z-index: 5;
+    border: none;
+}
